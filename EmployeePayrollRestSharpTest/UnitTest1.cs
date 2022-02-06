@@ -21,7 +21,7 @@ namespace EmployeePayrollRestSharpTest
         private RestResponse getEmployeeList()
         {
             // Arrange
-            // Initialize the request object with proper method and endpoint
+            // Initialize the request object with method and endpoint
             RestRequest request = new RestRequest("/employees", Method.Get);
 
             // Act
@@ -37,7 +37,7 @@ namespace EmployeePayrollRestSharpTest
             RestResponse response = getEmployeeList();
 
             // Assert
-            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK); //System.Net namespace
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK); 
             List<Employee> dataResponse = JsonConvert.DeserializeObject<List<Employee>>(response.Content);
             Assert.AreEqual(7, dataResponse.Count);
 
