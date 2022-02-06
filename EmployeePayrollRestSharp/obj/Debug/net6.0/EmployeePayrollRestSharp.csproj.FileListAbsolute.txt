@@ -1,0 +1,15 @@
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.csproj.AssemblyReference.cache
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.AssemblyInfoInputs.cache
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.AssemblyInfo.cs
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.csproj.CoreCompileInputs.cache
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\bin\Debug\net6.0\EmployeePayrollRestSharp.exe
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\bin\Debug\net6.0\EmployeePayrollRestSharp.deps.json
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\bin\Debug\net6.0\EmployeePayrollRestSharp.runtimeconfig.json
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\bin\Debug\net6.0\EmployeePayrollRestSharp.dll
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\bin\Debug\net6.0\ref\EmployeePayrollRestSharp.dll
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\bin\Debug\net6.0\EmployeePayrollRestSharp.pdb
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.dll
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\ref\EmployeePayrollRestSharp.dll
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.pdb
+C:\Users\ak\Desktop\BridgeLabz Project\EmployeePayrollRestSharp\EmployeePayrollRestSharp\obj\Debug\net6.0\EmployeePayrollRestSharp.genruntimeconfig.cache
