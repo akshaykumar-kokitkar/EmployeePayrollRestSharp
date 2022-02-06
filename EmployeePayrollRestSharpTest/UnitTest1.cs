@@ -127,5 +127,20 @@ namespace EmployeePayrollRestSharpTest
             Assert.AreEqual("40000", employee.salary);
             Console.WriteLine(response.Content);
         }
+
+       //UC5
+        [TestMethod]
+        public void OnCallingDeleteAPI_ReturnSuccessStatus()
+        {
+            // Arrange
+            RestRequest request = new RestRequest("/employees/8", Method.Delete);
+
+            // Act
+            RestResponse response = client.ExecuteAsync(request).Result;
+
+            // Assert
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            Console.WriteLine(response.Content);
+        }
     }
 }
