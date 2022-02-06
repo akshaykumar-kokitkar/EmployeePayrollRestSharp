@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Net;
 using EmployeePayrollRestSharp;
@@ -104,5 +105,27 @@ namespace EmployeePayrollRestSharpTest
             }
         }
 
+       //UC4
+        [TestMethod]
+        public void OnCallingPutAPI_ReturnEmployeeObject()
+        {
+            // Arrange
+            RestRequest request = new RestRequest("/employees/7", Method.Put);
+            JObject jsonObj = new JObject();
+            jsonObj.Add("name", "Akshay");
+            jsonObj.Add("salary", "40000");
+            
+            request.AddParameter("application/json", jsonObj, ParameterType.RequestBody);
+
+            // Act
+            RestResponse response = client.ExecuteAsync(request).Result;
+
+            // Assert
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            Employee employee = JsonConvert.DeserializeObject<Employee>(response.Content);
+            Assert.AreEqual("Akshay", employee.name);
+            Assert.AreEqual("40000", employee.salary);
+            Console.WriteLine(response.Content);
+        }
     }
 }

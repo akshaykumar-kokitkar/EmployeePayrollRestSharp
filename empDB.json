@@ -32,7 +32,7 @@
     },
     {
       "name": "Akshay",
-      "Salary": "20000",
+      "Salary": "40000",
       "id": 7
     },
     {
@@ -40,15 +40,15 @@
       "Salary": "15000",
       "id": 8
     },
-    {
-      "name": "sahil",
+	{
+	"name": "sahil",
       "Salary": "15000",
       "id": 9
-    },
-    {
-      "name": "ajit",
+	},
+	{
+	"name": "ajit",
       "Salary": "10000",
       "id": 10
-    }
+	}
   ]
 }
