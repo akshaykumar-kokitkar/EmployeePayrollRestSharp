@@ -1,59 +1,44 @@
 {
-<<<<<<< HEAD
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-=======
   "employees": [
     {
-      "id": 1,
-      "name": "Pankaj",
-      "salary": "10000"
+      "name": "Abhijit",
+      "salary": "10000",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "David",
-      "salary": "15000"
+      "salary": "10000",
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Lisa",
-      "salary": "8000"
+      "salary": "8000",
+      "id": 3
     },
     {
-      "id": 6,
       "name": "Meera",
-      "salary": "18000"
+      "salary": "18000",
+      "id": 4
     },
     {
-      "id": 10,
-      "name": "Nani",
-      "salary": "16000"
+      "name": "adinath",
+      "salary": "16000",
+      "id": 5
     },
     {
       "name": "Max",
       "Salary": "15000",
-      "id": 11
+      "id": 6
     },
     {
       "name": "Akshay",
       "Salary": "20000",
-      "id": 12
+      "id": 7
+    },
+    {
+      "name": "Clark",
+      "Salary": "15000",
+      "id": 8
     }
   ]
->>>>>>> 38b7ba177c436fcf97f7478df400e8f865e39312
 }
