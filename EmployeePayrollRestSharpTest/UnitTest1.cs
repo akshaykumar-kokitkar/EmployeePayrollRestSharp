@@ -72,5 +72,37 @@ namespace EmployeePayrollRestSharpTest
             Assert.AreEqual("15000", dataResponse.salary);
             System.Console.WriteLine(response.Content);
         }
+
+       //UC3
+        [TestMethod]
+        public void GivenMultipleEmployee_OnPost_ThenShouldReturnEmployeeList()
+        {
+            // Arrange
+            List<Employee> employeeList = new List<Employee>();
+            employeeList.Add(new Employee { name = "sahil", salary = "15000" });
+            employeeList.Add(new Employee { name = "ajit", salary = "10000" });
+            
+            foreach (var emp in employeeList)
+            {
+                // POST method and endpoint
+                RestRequest request = new RestRequest("/employees", Method.Post);
+                JObject jsonObj = new JObject();
+                jsonObj.Add("name", emp.name);
+                jsonObj.Add("salary", emp.salary);
+                
+                request.AddParameter("application/json", jsonObj, ParameterType.RequestBody);
+
+                //Act
+                RestResponse response = client.ExecuteAsync(request).Result;
+
+                //Assert
+                Assert.AreEqual(response.StatusCode, HttpStatusCode.Created);
+                Employee employee = JsonConvert.DeserializeObject<Employee>(response.Content);
+                Assert.AreEqual(emp.name, employee.name);
+                Assert.AreEqual(emp.salary, employee.salary);
+                System.Console.WriteLine(response.Content);
+            }
+        }
+
     }
 }
